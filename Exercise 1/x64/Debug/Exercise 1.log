@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Exercise 1\Exercise 1\Main.cpp(21,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Exercise 1\Exercise 1\Main.cpp(89,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Exercise 1.vcxproj -> C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Exercise 1\x64\Debug\Exercise 1.exe
