@@ -1,3 +1,0 @@
-﻿  Graphs.cpp
-C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Graphs\Graphs\Graphs.cpp(469,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Graphs.vcxproj -> C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Graphs\x64\Debug\Graphs.exe
