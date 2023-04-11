@@ -1,0 +1,3 @@
+﻿  OpenAddressing.cpp
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Exercise 6\OpenAddressing\OpenAddressing.cpp(126,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  OpenAddressing.vcxproj -> C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Exercise 6\x64\Debug\OpenAddressing.exe
