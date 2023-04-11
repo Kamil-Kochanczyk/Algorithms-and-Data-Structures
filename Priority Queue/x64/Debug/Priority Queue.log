@@ -1,0 +1,19 @@
+﻿  Main.cpp
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(53,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(47,1): message : while compiling class template member function 'void PriorityQueue<std::string>::put(T,int)'
+          with
+          [
+              T=std::string
+          ]
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(158,8): message : see reference to function template instantiation 'void PriorityQueue<std::string>::put(T,int)' being compiled
+          with
+          [
+              T=std::string
+          ]
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(156,29): message : see reference to class template instantiation 'PriorityQueue<std::string>' being compiled
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(122,52): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(95,1): message : while compiling class template member function 'void PriorityQueue<std::string>::compareChildWithParent(int)'
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(54,26): message : see reference to function template instantiation 'void PriorityQueue<std::string>::compareChildWithParent(int)' being compiled
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(124,44): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\Priority Queue\Main.cpp(125,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Priority Queue.vcxproj -> C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Priority Queue\x64\Debug\Priority Queue.exe
