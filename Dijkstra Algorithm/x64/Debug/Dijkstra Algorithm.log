@@ -1,0 +1,16 @@
+﻿  Main.cpp
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(42,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(35,7): message : while compiling class template member function 'void PriorityQueue<int>::put(T,int)'
+          with
+          [
+              T=int
+          ]
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(284,17): message : see the first reference to 'PriorityQueue<int>::put' in 'Graph::DijkstraAlgorithm'
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(266,1): message : see reference to class template instantiation 'PriorityQueue<int>' being compiled
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(111,52): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(83,7): message : while compiling class template member function 'void PriorityQueue<int>::compareChildWithParent(int)'
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(43,26): message : see the first reference to 'PriorityQueue<int>::compareChildWithParent' in 'PriorityQueue<int>::put'
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(284,17): message : see the first reference to 'PriorityQueue<int>::put' in 'Graph::DijkstraAlgorithm'
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(113,44): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\Dijkstra Algorithm\Main.cpp(114,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Dijkstra Algorithm.vcxproj -> C:\Users\kocha\Documents\Visual Studio 2022\Algorithms and Data Structures\Dijkstra Algorithm\x64\Debug\Dijkstra Algorithm.exe
