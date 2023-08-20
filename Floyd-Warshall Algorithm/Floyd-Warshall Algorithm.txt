@@ -1,0 +1,65 @@
+FloydWarshallAlgorithm(int[][] costMatrix)
+{
+	int numberOfVertices <-- costMatrix.numberOfRows
+	int[][] shortestPathsMatrix <-- new int[numberOfVertices][numberOfVertices]
+	int[][] previous <-- new int[numberOfVertices][numberOfVertices]
+	
+	for i <-- 0 to numberOfVertices
+	{
+		for j <-- 0 to numberOfVertices
+		{
+			if i = j
+				shortestPathsMatrix[i][j] <-- 0
+				previous[i][j] <-- i
+
+			else if costMatrix[i][j] != INT32_MIN
+				shortestPathsMatrix[i][j] <-- costMatrix[i][j]
+				previous[i][j] <-- i
+
+			else
+				shortestPathsMatrix[i][j] <-- INT32_MAX
+				previous[i][j] <-- -1
+		}
+	}
+
+	for i <-- 0 to numberOfVertices
+	{
+		for j <-- 0 to numberOfVertices
+		{
+			for k <-- 0 to numberOfVertices
+			{
+				distance <-- shortestPathsMatrix[j, i] + shortestPathsMatrix[i, k]
+
+				if distance < shortestPathsMatrix[j, k]
+					shortestPathsMatrix[j, k] <-- distance
+					previous[j, k] <-- previous[i, k]
+					
+			}
+		}
+	}
+
+	for i <-- 0 to numberOfVertices
+		if shortestPathsMatrix[i][i] < 0
+			throw exception("Negative cycle")
+
+	return costMatrix, previous
+}
+
+ReconstructPath(int from, int to, int[][] previous)
+{
+	if previous[from][to] = -1
+		return empty array
+
+	int[] path <-- { to }
+
+	while to != from
+		to <-- previous[from][to]
+		path.append(to)
+
+	int[][] reversed <-- new int[path.length]
+
+	for i <-- path.length - 1 to 0
+		reversed[path.length - 1 - i] <-- path[i]
+
+	return reversed
+}
